@@ -2,11 +2,11 @@
 /**
  * Plugin Name: WP Form Encryptor
  * Description: Encrypts WordPress form field data
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Unconventional Coding
  */
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/includes.php';
 
 use WPFormEncryptor\SettingsPage;
 use WPFormEncryptor\Encryption;
